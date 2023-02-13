@@ -1,0 +1,125 @@
+.logo{
+    width: 100px;
+}
+
+.header_setion h1{
+    font-size: 3rem;
+    opacity: .6;
+    margin: 90px 0 20px 0;
+}
+
+.header_setion p{
+    font-size: 1.3rem;
+    opacity: .6;
+    margin: 10px 0 60px 0;
+}
+.header_section img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid rgb(0,0,0,.1);
+    padding: 4px;
+    border-radius: 50%;
+    margin: 50px 0;
+}
+.hero_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero_section div{
+    padding: 150px 0 200px 0 !important;
+
+}
+.hero_section div h2{
+    font-size: 3rem;
+    margin: 20px 0;
+}
+.hero_section div p{
+    width: 52%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: justify;
+}
+.card-header{
+    place-items: center;
+    display: grid;
+}
+.card-header i{
+    margin-bottom: 10px;
+    font-size: 2rem;
+    padding:10px;
+    border:1px solid rgb(0,0,0,.1); 
+    border-radius: 50%;
+}
+
+.card_state{
+    position: relative;
+    top: -160px;
+}
+
+.card-header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid rgb(0,0,0,.1);
+}
+.contact_us{
+    width: 100% ;
+}
+
+.contact_us form{
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer h3{
+    margin-bottom: 55px;
+
+}
+
+.footer .social_icons{
+    display: flex;
+    margin-bottom: 55px;
+}
+
+.footer .social_icons a{
+    width: 50px;
+    height: 35px;
+    border: 1px solid rgb(0,0,0,.1);
+    border-radius: 50%;
+    place-items: center;
+    display: grid;
+    text-decoration: none;
+    transition-duration: 100ms;
+    margin: 0 10px;
+}
+.footer .social_icons a:hover{
+    transform: scale(1.1);
+    background-color: #fff;
+  
+}
+
+nav{
+    position: sticky !important;
+    top:0;
+    background-color: red !important;
+    z-index: 99;
+}
+@media (max-width:768px){
+    .contact_us form{
+        width:90%
+    }
+
+}
